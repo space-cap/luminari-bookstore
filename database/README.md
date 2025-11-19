@@ -7,12 +7,13 @@
 ```
 database/
 ├── scripts/                          # SQL 스크립트 파일들
-│   ├── 01_create_database.sql       # 데이터베이스 생성
-│   ├── 02_create_tables.sql         # 전체 테이블 생성 (별도 작성 필요)
-│   ├── 03_create_triggers.sql       # 트리거 생성 (별도 작성 필요)
-│   ├── 04_create_procedures.sql     # 스토어드 프로시저 (별도 작성 필요)
-│   ├── 05_insert_initial_data.sql   # 초기 데이터 삽입 (별도 작성 필요)
-│   └── 99_rollback.sql              # 롤백 스크립트 (별도 작성 필요)
+│   ├── 01_create_database.sql       # 데이터베이스 생성 ✅
+│   ├── 02_create_tables.sql         # 전체 테이블 생성 (28개) ✅
+│   ├── 03_create_triggers.sql       # 트리거 생성 (6개) ✅
+│   ├── 04_create_procedures.sql     # 스토어드 프로시저 (2개) ✅
+│   ├── 05_insert_initial_data.sql   # 초기 데이터 삽입 ✅
+│   └── 99_rollback.sql              # 롤백 스크립트 ✅
+├── deploy.bat                        # Windows 자동 배포 스크립트
 └── README.md                         # 이 파일
 
 ```
